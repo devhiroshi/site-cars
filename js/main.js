@@ -45,6 +45,6 @@ $(document).ready(function(){
         $('#veiculo-interesse').val(nomeCarros)
         $('html').animate({
             scrollTop: destino.offset().top
-        }, 500)
+        }, 1000)
     })
 })
