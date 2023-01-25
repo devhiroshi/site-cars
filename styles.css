@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(to bottom, #EDEDE9, #F5EBE0, #D5BDAF);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: black;
+    color: azure;
+    padding-top: 16px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+h1:hover {
+    letter-spacing: 8px;
+    transition: all ease .9s;
+    cursor: pointer;
+}
+
+header > .container,
+footer > .container  {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color:#E59500;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: azure;
+    letter-spacing: 3px;
+    transition: all ease .9s;
+}
+
+.nav-menu {
+    width: 32px;
+    cursor: pointer;
+}
+
+.nav-menu span {
+    height: 2px;
+    width: 100%;
+    background-color: azure;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-carros {
+    flex-wrap: wrap;
+}
+
+.lista-carros li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-carros li img {
+    max-width: 100%;
+}
+
+.lista-carros li h3 {
+    margin: 16px 0;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+button {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px 0;
+    background-color :black;
+    color: azure;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 4px;
+    opacity: .9;
+    outline: none;
+}
+
+button:hover {
+    background-color: #E59500;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    font-size: 14px;
+    opacity: .9;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
