@@ -29,7 +29,7 @@ $(document).ready(function(){
             }
         },
         submitHandler: function(form) {
-            console.log(form);
+                 e,preveventDefault();
         },
         invalidHandler: function(evento, validador) {
             let camposIncorretos = validador.numberOfInvalids();
